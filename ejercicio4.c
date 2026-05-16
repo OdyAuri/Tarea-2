@@ -1,14 +1,14 @@
 #include <stdio.h>
 void main ()
 {
-double d=0, tasa=0;
+double d=0, p=0;
   do 
   {
-  printf("La taza de interes del banco es de 5%");
+  printf("La taza de interes del banco es de 6.08%");
   printf("Ingrese la cantidad de dinero a invertir \n");
   scanf("%lf", &d);
   }
   while (d<=0);
-  p = d*11.96;
-  printf("la cantidad de dolares en pesos es: \n %lf", p);
+  p = d+(d*0.0608);
+  printf("la cantidad de dinero recibido sera de: \n %lf", p);
 }

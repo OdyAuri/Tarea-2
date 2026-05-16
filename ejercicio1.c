@@ -18,9 +18,9 @@ void main()
   while (num2<=0);
   
     res=num1+num2;
-  printf("\n La suma de los numeros es: \n %d", &res);
+  printf("\n La suma de los numeros es: \n %d", res);
     res=num1-num2;
-  printf("\n La resta de los números es: \n %d", &res);
+  printf("\n La resta de los números es: \n %d", res);
     res=num1*num2;
-  printf("\n La multiplicacion de los números es: \n %d", &res);
+  printf("\n La multiplicacion de los números es: \n %d", res);
 }

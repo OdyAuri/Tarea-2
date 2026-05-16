@@ -1,16 +1,26 @@
-#include<stdio.h>
-int main() 
+#include <stdio.h>
+void main() 
 {
-  int num1, num2, r;
-  printf("Ingrese el primer número, solo se sumaran los enteros");
-  scanf("%d", &num1);
-  printf("Ingrese el segundo número, solo se sumaran los enteros");
+  int num1=0;
+  int num2=0;
+  int res=0;
+  do 
+  {
+    printf("\n Ingrese el primer número, solo se sumaran los enteros \n");
+    scanf("%d", &num1);
+  }
+  while (num1<=0); 
+  do
+  {
+  printf("\n Ingrese el segundo número, solo se sumaran los enteros \n");
   scanf("%d", &num2);
-  res=num1+num2;
-  printf("La suma de los numeros es %d", &res);
-  res=num1-num2;
-  printf("La resta de los números es %d", &res);
-  res=num1*num2;
-  printf("La multiplicacion de los números es %d", &res);
-return 0;
+  }
+  while (num2<=0);
+  
+    res=num1+num2;
+  printf("\n La suma de los numeros es: \n %d", &res);
+    res=num1-num2;
+  printf("\n La resta de los números es: \n %d", &res);
+    res=num1*num2;
+  printf("\n La multiplicacion de los números es: \n %d", &res);
 }

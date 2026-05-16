@@ -4,7 +4,7 @@ void main ()
 double d=0, tasa=0;
   do 
   {
-  printf("La taza de interes del banco es de 5%")
+  printf("La taza de interes del banco es de 5%");
   printf("Ingrese la cantidad de dinero a invertir \n");
   scanf("%lf", &d);
   }

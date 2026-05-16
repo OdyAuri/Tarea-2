@@ -7,7 +7,7 @@ int main ()
   scanf("%d", &r);
   a=pi*(r*r);
   c= 2*pi*r;
-  printf("El area de la circunferencia es %d", &a);
-  printf("La circunferencia es %d", &c);
+  printf("El area de la circunferencia es %d", a);
+  printf("La circunferencia es %d", c);
 return 0;
 }
